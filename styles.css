@@ -120,7 +120,7 @@ ul {
 }
 
 #subtitle {
-    position: absolute;
+    position: relative;
     text-align:center;  
 }
 
