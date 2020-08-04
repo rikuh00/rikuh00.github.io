@@ -1,10 +1,47 @@
 
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size:100%
+}
 h1 {
     color:black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink {
+    float: right;
+}
+
+.navlink a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navlink a:hover{
+    color: grey;
+}
+#navbar {
+    overflow: hidden;
+    background-color: white;
+}
+
+#subtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:center;  
+}
 #title {
-    font-size: 48;
+    font-size: 400%;
+    margin-top: 20px;
+    margin-bottom: 0;
     text-align:center;
 }
