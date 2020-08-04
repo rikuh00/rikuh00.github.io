@@ -24,6 +24,10 @@ ul {
     padding: 0;
 }
 
+.center-txt{
+    text-align: center;
+}
+
 .heading{
     font-size: 200%;
     margin: 20px;
