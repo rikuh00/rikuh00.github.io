@@ -3,6 +3,7 @@
     font-family: 'Raleway', sans-serif;
     font-size:100%
 }
+
 h1 {
     color:black;
     font-family: 'Raleway', sans-serif;
@@ -29,6 +30,7 @@ ul {
 .navlink a:hover{
     color: grey;
 }
+
 #navbar {
     overflow: hidden;
     background-color: white;
