@@ -7,6 +7,7 @@
     font-family: 'Raleway', sans-serif;
     font-size:100%;
     line-height: 1.6;
+    margin: auto;
 }
 
 a {
@@ -42,6 +43,10 @@ ul {
     display: block;
     text-align: center;
     padding: 15px 15px;
+}
+
+#about {
+    max-width: 600px;
 }
 
 #header {
