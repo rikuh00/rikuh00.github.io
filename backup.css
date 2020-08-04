@@ -46,14 +46,16 @@ ul {
 }
 
 #about {
-    width: 60%;
-    height: 200px;
-    float: left;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #contact {
-    margin-left: 60%;
-    height: 200px;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
 }
 
 #header {
@@ -65,13 +67,6 @@ ul {
     width: 100%;
     background-color: white;
     overflow: hidden;
-}
-
-#profile {
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    padding: 10px;
 }
 
 #subtitle {
