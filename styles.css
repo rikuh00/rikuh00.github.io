@@ -9,6 +9,9 @@
     line-height: 1.6;
 }
 
+title {
+    font-size: 300%;
+}
 a {
     color: black;
     text-decoration: none;
@@ -20,11 +23,6 @@ a:hover{
 
 div {
     display: block;
-}
-
-h1 {
-    color:black;
-    font-family: 'Raleway', sans-serif;
 }
 
 table{
@@ -122,8 +120,7 @@ ul {
 }
 
 #subtitle {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: absolute;
     text-align:center;  
 }
 
