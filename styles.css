@@ -81,7 +81,6 @@ ul {
     display: block;
     float: right;
     padding: 5%;
-    position: relative;
     width: 30%;
 
 }
@@ -89,8 +88,7 @@ ul {
 #desc {
     float: left;
     padding: 5%;
-    position: relative;
-    width: 45%;
+    width: 50%;
 }
 
 #footer {
