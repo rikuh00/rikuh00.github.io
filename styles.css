@@ -29,8 +29,18 @@ ul {
     text-align: center;
 }
 
+.gallery-column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align:center;
+  }
+
+  .gallery-row {
+    display: flex;
+  }
+
 .heading{
-    font-size: 200%;
+    font-size: 250%;
     margin: 20px;
     text-align: center;
 }
@@ -80,7 +90,7 @@ ul {
 }
 
 #title {
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
     margin: 0;
 }
