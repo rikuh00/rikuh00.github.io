@@ -31,6 +31,10 @@ ul {
     color: grey;
 }
 
+#copyright {
+    text-align: center;
+}
+
 #navbar {
     overflow: hidden;
     background-color: white;
@@ -41,6 +45,7 @@ ul {
     margin-bottom: 10px;
     text-align:center;  
 }
+
 #title {
     font-size: 400%;
     margin-top: 20px;
