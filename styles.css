@@ -56,14 +56,17 @@ ul {
 }
 
 #about {
-    width: 60%;
+    flex: 60%;
     height: 200px;
-    float: left;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 #contact {
-    margin-left: 60%;
+    flex: 40%;
     height: 200px;
+    padding: 5px;
+    margin-right: 20px;
 }
 
 #header {
@@ -78,10 +81,7 @@ ul {
 }
 
 #profile {
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    padding: 10px;
+    display: flex;
 }
 
 #subtitle {
