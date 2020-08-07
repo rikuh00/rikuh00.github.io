@@ -9,9 +9,8 @@
 	<!-- Favicon -->   
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -65,8 +64,8 @@
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-xl-10 offset-xl-1">
-						<h2 class="section-title">Portfolio</h2>
-						<h3 class = "subtitle">Project Management & Economics</h3>
+						<h2 class="section-title">Algorithmic Trading</h2>
+						<h3 class = "subtitle">Personal Project, August 2020-</h3>
 					</div>
 				</div>
 			</div>
@@ -74,48 +73,41 @@
 		<!-- intro section end -->
 
 	<!-- portfolio section start -->
-	<section class="portfolio-section">
-			<div class="container-fluid p-md-0 ">
-				<div class="row portfolios-area">
-					<div class="mix col-lg-6 col-md-6 web">
-						<button class = "btn-img">
-							<div class = "img-wrap">
-								<a href = "emerging_market.html"><img src = "img/portfolio/em.png"></a>
-							</div>
-						</button>
-					</div>
-					<div class="mix col-lg-6 col-md-6 digital">
-						<button class = "btn-img">
-								<div class = "img-wrap">
-									<a href = "robotics.html"><img src = "img/portfolio/robotics.png"></a>
-								</div>
-						</button>
-					</div>
-					<div class="mix col-lg-6 col-md-6 web">
-							<button class = "btn-img">
-								<div class = "img-wrap">
-									<a href = "fincomm.html"><img src = "img/portfolio/fincomm.png"></a>
-								</div>
-							</button>
-						</div>
-			</div>
-	</section>
+	<section class="portfolio-content">
+			<h2>Introduction</h2>
+			<p>I created a simple trading algorithm for stock ETFs based on moving average strategies.
+				The algorithm shows buy/sell recommendations based on inputs such as current portfolio makeup and available cash.
+			</p>
+			
+			<p>
+				The algorithm pulls data from Yahoo! Finance and makes recommendations based on the moving average of historical prices. <br>
+				More features are being added! Click <a href="https://github.com/rikuh00/Algo-Trading">here</a> to access the repository.
+			</p>
+
+			<h2>Tools Used</h2>
+			<ul>
+				<li><b>Python</b>:</li>
+					<ul>
+						<li><b>lxml</b>: pulling data from Yahoo! Finance</li>
+						<li><b>Pandas</b>: analyzing stock price data</li>
+					</ul>
+			</ul>
+		</section>
 		<!-- portfolio section end -->
 
 
 	<!-- footer section start -->
 	<footer class="footer-section text-center">
-			<div class="container">
-				<a href="contact.html" class="site-btn">Questions?</a>
-				<div class="social-links">
-					<a href=""><span class="fa fa-linkedin"></span></a>
-					<a href=""><span class="fa fa-github"></span></a>
-				</div>
-				<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+		<div class="container">
+			<a href="contact.html" class="site-btn">Questions?</a>
+			<div class="social-links">
+				<a href="https://linkedin.com/in/riku-hirose" target = "_blank"><span class="fa fa-linkedin"></span></a>
+				<a href="https://github.com/rikuh00" target = "_blank"><span class="fa fa-github"></span></a>
 			</div>
-		</footer>
-		<!-- footer section end -->
-
+			<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+		</div>
+	</footer>
+	<!-- footer section end -->
 
 
 	<!--====== Javascripts & Jquery ======-->
