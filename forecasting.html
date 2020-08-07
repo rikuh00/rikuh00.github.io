@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Riku Hirose</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Riku Hirose">
+	<meta name="keywords" content="portfolio, Riku, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="body-pad">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	
+	<!-- header section start -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3">
+					<div class="logo">
+						<h2 class="site-logo">Riku Hirose</h2>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-9">
+					
+					<nav class="main-menu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="overview.html">Overview</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+	</header>
+	<!-- header section end -->
+
+	<!-- intro section start -->
+	<section class="intro-section">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1">
+						<h2 class="section-title">Forecasting Engine Project</h2>
+						<h3 class = "subtitle">Canada Pension Plan Investment Board, July 2019</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- intro section end -->
+
+	<!-- portfolio section start -->
+	<section class="portfolio-content">
+			<h2>Introduction</h2>
+			<p>I created 10 features for a machine learning algorithm in order to improve the performance of a quantitative equities portfolio. I mainly used Python to complete the project, but I also learned kdb+ and Q in order to quickly query a large amount of data. Additionally, I learned machine learning concepts (such as lasso and ridge regressions) in order to understand how the system worked; this allowed me to produce 5 features with a hit rate of above 50%.</p>
+			<p>In addition to using my technical skills in programming and data science, I also demonstrated my ability to learn quickly on-the-job; although I could have used Python alone to complete the project, I decided to learn kdb+ and Q because I felt that those tools were better suited for machine-learning applications where I had to query more than 10GB of data for each feature construction.</p>
+			<h2>Project Overview</h2>
+			<p>While the specific details about the data used for signal construction are confidential, I used two different databases (in general) to combine information and generate a signal. The machine learning algorithm would produce decisions regarding buying or selling a certain financial asset.
+			The following flowchart summarizes the process:</p>
+			<img src = "img/projects/forecasting/forecasting.png">
+			<p>The hit rates were measured against historical portfolio performances; the goal was to answer the question, "How would we have performed in the past if we invested according to what the machine learning algorithm says?"
+				The rates can depend on various factors, including the quality of data and the accuracy of the financial model used.</p>
+			<h2>Engineering Tools Used</h2>
+			<ul>
+				<li><b>Python</b>
+					<ul>
+						<li><b>QPython</b>: connection the Python program with the kdb+ database</li>
+						<li><b>Numpy and Pandas</b>: calculation and dataframe manipulation to produce the signal</li>
+					</ul>
+				</li>
+				<li><b>kdb+ and Q</b>: writing functions in Q for faster querying</li>
+			</ul>
+			<h2>Limitations</h2>
+			<ul>
+				<li><b>Slow runtime</b> - The features were based on 10GB of data, so it took more than 24 hours to produce a set of 5 signals. While I could not reduce runtime, I identified possible causes and documented them for future references.</li>
+				<li><b>Low hit rate</b> - While the hit rate of above 50% was better than the initial objective, the hit rate was still lower than the existing features because the underlying data had a low quality. I suggested potential workarounds, such as winsorizing the input data and using aggregation to control the quality of the input data. </li></ul>
+			<h2>Results</h2>
+			<ul>
+				<li>Produced 10 features for a machine learning algorithm using Python, kdb+, and Q</li>
+				<li>Achieved 50% hit rate with 5 features</li>
+				<li>Demonstrated my understanding of data science by suggesting methods to improve hit rate</li>
+			</ul>
+		</section>
+		<!-- portfolio section end -->
+
+
+	<!-- footer section start -->
+	<footer class="footer-section text-center">
+		<div class="container">
+			<a href="contact.html" class="site-btn">Questions?</a>
+			<div class="social-links">
+				<a href="https://linkedin.com/in/riku-hirose" target = "_blank"><span class="fa fa-linkedin"></span></a>
+				<a href="https://github.com/rikuh00" target = "_blank"><span class="fa fa-github"></span></a>
+			</div>
+			<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
