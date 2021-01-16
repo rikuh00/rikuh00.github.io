@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-size:1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:darkgrey;
+}
+.title {
+    font-size:3rem;
+}
+
+.subtitle {
+    color:grey;
+    font-size:1.5rem;
+}
+
+.footer {
+    font-size:1.5rem;
+}
+.sns {
+    width:150%;
+    height:150%;
+}
